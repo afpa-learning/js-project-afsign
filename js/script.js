@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // récupération de tous les stagiaires
     let stagiaires = session.stagiaires;
 
+    console.log("Stagiaires :");
     // boucle sur tous les stagaires
     for (let i = 0; i < stagiaires.length; i++) {
         console.log(stagiaires[i]);
