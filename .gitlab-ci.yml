@@ -9,6 +9,6 @@ pages:
     - ls public
   artifacts:
     paths:
-      - /public
+      - public
   only:
   - main
